@@ -30,7 +30,7 @@ target
 
 .idea
 *.iml
-
+#target
 .DS_Store
 c:/logs/
 logs

@@ -2,94 +2,57 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c10def5a-a154-4758-8a1d-316b139fc5ba" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhuzhu/ocr/core/bean/BankCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhuzhu/ocr/core/bean/IdCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhuzhu/ocr/core/factory/IdCardAndBankCardFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhuzhu/ocr/core/service/BankCardService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhuzhu/ocr/core/service/IdCardService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhuzhu/ocr/core/service/impl/IdCardAndBankCardServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhuzhu/ocr/core/util/RandomUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhuzhu/ocr/supplier/baidu/ClientUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhuzhu/ocr/supplier/baidu/FileUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhuzhu/ocr/supplier/baidu/bank/bean/JsonRootBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhuzhu/ocr/supplier/baidu/bank/bean/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhuzhu/ocr/supplier/baidu/bank/service/BaiDuBankCardService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhuzhu/ocr/supplier/baidu/config/BaiDuConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhuzhu/ocr/supplier/baidu/consts/BaiduConsts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhuzhu/ocr/supplier/baidu/consts/CardEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhuzhu/ocr/supplier/baidu/idcard/bean/BaduIdCardItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhuzhu/ocr/supplier/baidu/idcard/bean/Point.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhuzhu/ocr/supplier/baidu/idcard/service/BaiDuIdCardService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhuzhu/ocr/supplier/qq/ClientUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhuzhu/ocr/supplier/qq/bank/bean/Data.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhuzhu/ocr/supplier/qq/bank/bean/Itemcoord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhuzhu/ocr/supplier/qq/bank/bean/Items.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhuzhu/ocr/supplier/qq/bank/bean/JsonRootBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhuzhu/ocr/supplier/qq/bank/consts/BankConsts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhuzhu/ocr/supplier/qq/bank/service/QQBankCardService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhuzhu/ocr/supplier/qq/config/QQconfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhuzhu/ocr/supplier/qq/idcard/bean/Data.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhuzhu/ocr/supplier/qq/idcard/bean/JsonRootBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhuzhu/ocr/supplier/qq/idcard/bean/Result_list.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhuzhu/ocr/supplier/qq/idcard/consts/QQIDCardConsts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhuzhu/ocr/supplier/qq/idcard/service/QQIdCardService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestCore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestIdCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestMkdir.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestdCards.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/core/bean/BankCard.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/core/bean/IdCard.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/core/factory/IdCardAndBankCardFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/core/service/BankCardService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/core/service/IdCardService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/core/service/impl/IdCardAndBankCardServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/core/util/RandomUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/supplier/baidu/ClientUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/supplier/baidu/FileUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/supplier/baidu/bank/bean/JsonRootBean.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/supplier/baidu/bank/bean/Result.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/supplier/baidu/bank/service/BaiDuBankCardService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/supplier/baidu/config/BaiDuConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/supplier/baidu/consts/BaiduConsts.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/supplier/baidu/consts/CardEnum.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/supplier/baidu/idcard/bean/BaduIdCardItem.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/supplier/baidu/idcard/bean/Point.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/supplier/baidu/idcard/service/BaiDuIdCardService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/supplier/qq/ClientUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/supplier/qq/bank/bean/Data.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/supplier/qq/bank/bean/Itemcoord.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/supplier/qq/bank/bean/Items.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/supplier/qq/bank/bean/JsonRootBean.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/supplier/qq/bank/consts/BankConsts.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/supplier/qq/bank/service/QQBankCardService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/supplier/qq/config/QQconfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/supplier/qq/idcard/bean/Data.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/supplier/qq/idcard/bean/JsonRootBean.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/supplier/qq/idcard/bean/Result_list.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/supplier/qq/idcard/consts/QQIDCardConsts.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/supplier/qq/idcard/service/QQIdCardService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ocr-tools-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestCore.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestIdCard.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestMkdir.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestdCards.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TestCore.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TestIdCard.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TestMkdir.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TestdCards.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/TestCore.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/TestIdCard.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/TestMkdir.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/TestdCards.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/core/bean/BankCard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/core/bean/IdCard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/core/factory/IdCardAndBankCardFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/core/service/BankCardService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/core/service/IdCardService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/core/service/impl/IdCardAndBankCardServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/core/util/RandomUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/supplier/baidu/ClientUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/supplier/baidu/FileUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/supplier/baidu/bank/bean/JsonRootBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/supplier/baidu/bank/bean/Result.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/supplier/baidu/bank/service/BaiDuBankCardService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/supplier/baidu/config/BaiDuConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/supplier/baidu/consts/BaiduConsts.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/supplier/baidu/consts/CardEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/supplier/baidu/idcard/bean/BaduIdCardItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/supplier/baidu/idcard/bean/Point.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/supplier/baidu/idcard/service/BaiDuIdCardService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/supplier/qq/ClientUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/supplier/qq/bank/bean/Data.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/supplier/qq/bank/bean/Itemcoord.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/supplier/qq/bank/bean/Items.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/supplier/qq/bank/bean/JsonRootBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/supplier/qq/bank/consts/BankConsts.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/supplier/qq/bank/service/QQBankCardService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/supplier/qq/config/QQconfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/supplier/qq/idcard/bean/Data.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/supplier/qq/idcard/bean/JsonRootBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/supplier/qq/idcard/bean/Result_list.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/supplier/qq/idcard/consts/QQIDCardConsts.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/supplier/qq/idcard/service/QQIdCardService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ocr-tools-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestCore.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestIdCard.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestMkdir.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestdCards.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestCore.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestIdCard.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestMkdir.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestdCards.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestCore.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestIdCard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestMkdir.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestdCards.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -129,7 +92,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zhuzhu/ocr/core/factory/IdCardAndBankCardFactory.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
-              <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -185,7 +148,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="113">
@@ -194,14 +157,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestCore.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TestCore.java">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="242">
+              <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -230,6 +190,7 @@
         <option value="$PROJECT_DIR$/src/test/java/TestIdCard.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestCore.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zhuzhu/ocr/core/bean/IdCard.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -451,15 +412,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1564314335953</updated>
-      <workItem from="1564314339284" duration="1971000" />
+      <workItem from="1564314339284" duration="2199000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1971000" />
+    <option name="totallyTimeSpent" value="2199000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -472,7 +434,7 @@
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32874355" />
-      <window_info anchor="bottom" id="Terminal" weight="0.33046472" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.33046472" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
@@ -483,7 +445,7 @@
       <window_info id="UI Designer" />
       <window_info anchor="right" id="Theme Preview" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39759037" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39759037" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -768,7 +730,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zhuzhu/ocr/core/factory/IdCardAndBankCardFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -820,6 +782,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
@@ -837,7 +806,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited />
+          <last-edited>No facets are configured</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -849,7 +818,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
-          <last-edited />
+          <last-edited>Python 2.7 interpreter library</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -898,7 +867,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited />
+          <last-edited>Maven: com.baidu.aip:java-sdk:4.11.3</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
