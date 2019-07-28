@@ -3,56 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c10def5a-a154-4758-8a1d-316b139fc5ba" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/core/bean/BankCard.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/core/bean/IdCard.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/core/factory/IdCardAndBankCardFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/core/service/BankCardService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/core/service/IdCardService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/core/service/impl/IdCardAndBankCardServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/core/util/RandomUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/supplier/baidu/ClientUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/supplier/baidu/FileUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/supplier/baidu/bank/bean/JsonRootBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/supplier/baidu/bank/bean/Result.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/supplier/baidu/bank/service/BaiDuBankCardService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/supplier/baidu/config/BaiDuConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/supplier/baidu/consts/BaiduConsts.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/supplier/baidu/consts/CardEnum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/supplier/baidu/idcard/bean/BaduIdCardItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/supplier/baidu/idcard/bean/Point.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/supplier/baidu/idcard/service/BaiDuIdCardService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/supplier/qq/ClientUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/supplier/qq/bank/bean/Data.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/supplier/qq/bank/bean/Itemcoord.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/supplier/qq/bank/bean/Items.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/supplier/qq/bank/bean/JsonRootBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/supplier/qq/bank/consts/BankConsts.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/supplier/qq/bank/service/QQBankCardService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/supplier/qq/config/QQconfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/supplier/qq/idcard/bean/Data.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/supplier/qq/idcard/bean/JsonRootBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/supplier/qq/idcard/bean/Result_list.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/supplier/qq/idcard/consts/QQIDCardConsts.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhuzhu/ocr/supplier/qq/idcard/service/QQIdCardService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ocr-tools-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestCore.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestIdCard.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestMkdir.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestdCards.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestCore.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestIdCard.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestMkdir.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestdCards.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestCore.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestIdCard.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestMkdir.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestdCards.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -161,7 +111,7 @@
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="242">
-              <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
             </state>
           </provider>
         </entry>
@@ -412,12 +362,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1564314335953</updated>
-      <workItem from="1564314339284" duration="2199000" />
+      <workItem from="1564314339284" duration="2224000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2199000" />
+    <option name="totallyTimeSpent" value="2224000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -785,7 +735,7 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
-          <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
     </entry>
