@@ -1,1 +1,2 @@
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.easy.ocr.config.AutoInitConfig
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+ com.easy.ocr.config.AutoInitConfig

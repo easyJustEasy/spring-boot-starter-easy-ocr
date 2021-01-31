@@ -16,12 +16,16 @@ import org.springframework.stereotype.Service;
 
 
 import java.io.File;
-@Service
+
 public class QQIdCardService implements IdCardService {
-    @Autowired
     private QQconfig qQconfig;
-    @Autowired
     private QQClientUtil qqClientUtil;
+
+
+    public QQIdCardService(QQconfig qQconfig, QQClientUtil qqClientUtil) {
+        this.qQconfig = qQconfig;
+        this.qqClientUtil = qqClientUtil;
+    }
 
     /**
      * 身份证ocr识别操作

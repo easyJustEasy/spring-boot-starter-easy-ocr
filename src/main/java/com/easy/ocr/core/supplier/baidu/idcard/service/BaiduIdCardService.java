@@ -4,6 +4,7 @@ import com.easy.ocr.core.core.bean.IdCard;
 import com.easy.ocr.core.core.service.IdCardService;
 import com.easy.ocr.core.supplier.baidu.BaiduClientUtil;
 import com.easy.ocr.core.core.util.FileUtil;
+import com.easy.ocr.core.supplier.baidu.config.BaiduConfig;
 import com.google.gson.Gson;
 
 import com.easy.ocr.core.supplier.baidu.consts.BaiduConsts;
@@ -14,10 +15,14 @@ import org.springframework.stereotype.Service;
 
 import java.io.File;
 import java.util.HashMap;
-@Service
 public class BaiduIdCardService implements IdCardService {
-    @Autowired
+    private BaiduConfig baiduConfig;
     private BaiduClientUtil baiduClientUtil;
+
+    public BaiduIdCardService(BaiduConfig baiduConfig, BaiduClientUtil baiduClientUtil) {
+        this.baiduClientUtil = baiduClientUtil;
+        this.baiduConfig = baiduConfig;
+    }
 
     public  IdCard ocrIdCard(File img, String side) {
         try {

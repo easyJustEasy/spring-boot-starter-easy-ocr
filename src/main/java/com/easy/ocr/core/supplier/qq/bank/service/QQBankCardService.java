@@ -16,12 +16,15 @@ import org.springframework.stereotype.Service;
 
 import java.io.File;
 import java.util.List;
-@Service
 public class QQBankCardService implements BankCardService {
-    @Autowired
     private QQconfig qQconfig;
-    @Autowired
     private QQClientUtil qqClientUtil;
+
+    public QQBankCardService(QQconfig qQconfig, QQClientUtil qqClientUtil) {
+        this.qqClientUtil = qqClientUtil;
+        this.qQconfig = qQconfig;
+    }
+
     /**
      * OCR-银行卡识别
      *

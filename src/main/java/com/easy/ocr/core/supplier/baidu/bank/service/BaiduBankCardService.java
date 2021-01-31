@@ -4,6 +4,7 @@ import com.easy.ocr.core.core.bean.BankCard;
 import com.easy.ocr.core.core.service.BankCardService;
 import com.easy.ocr.core.supplier.baidu.BaiduClientUtil;
 import com.easy.ocr.core.core.util.FileUtil;
+import com.easy.ocr.core.supplier.baidu.config.BaiduConfig;
 import com.easy.ocr.core.supplier.baidu.consts.CardEnum;
 import com.google.gson.Gson;
 
@@ -16,10 +17,14 @@ import org.springframework.stereotype.Service;
 import java.io.File;
 import java.util.HashMap;
 
-@Service
 public class BaiduBankCardService implements BankCardService {
-    @Autowired
     private BaiduClientUtil baiduClientUtil;
+    private BaiduConfig baiduConfig;
+
+    public BaiduBankCardService(BaiduConfig baiduConfig, BaiduClientUtil baiduClientUtil) {
+        this.baiduClientUtil = baiduClientUtil;
+        this.baiduConfig = baiduConfig;
+    }
 
     public BankCard bankcard(File img) {
 
