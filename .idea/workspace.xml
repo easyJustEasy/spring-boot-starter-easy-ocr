@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="159024da-97d1-48f2-ae08-3330e3b7c682" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/easy/ocr/core/core/service/BankCardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easy/ocr/core/core/service/BankCardService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/easy/ocr/core/core/service/IdCardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easy/ocr/core/core/service/IdCardService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,13 +19,19 @@
       </list>
     </option>
   </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="origin/master" />
+  </component>
+  <component name="Git.Rebase.Settings">
+    <option name="NEW_BASE" value="master" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="E:/soft/apache-maven-3.6.1" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../soft/apache-maven-3.6.1" />
         <option name="userSettingsFile" value="E:\soft\apache-maven-3.6.1\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>

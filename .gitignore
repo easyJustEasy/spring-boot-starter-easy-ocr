@@ -34,4 +34,4 @@ target
 .DS_Store
 c:/logs/
 logs
-.idea/
+.idea/*
