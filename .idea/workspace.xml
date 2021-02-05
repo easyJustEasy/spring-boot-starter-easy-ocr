@@ -6,18 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="159024da-97d1-48f2-ae08-3330e3b7c682" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/easy/ocr/config/AutoInitConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easy/ocr/config/AutoInitConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/easy/ocr/core/core/service/impl/EasyOcrUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easy/ocr/core/core/service/impl/EasyOcrUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/easy/ocr/core/supplier/baidu/BaiduClientUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easy/ocr/core/supplier/baidu/BaiduClientUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/easy/ocr/core/supplier/baidu/bank/service/BaiduBankCardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easy/ocr/core/supplier/baidu/bank/service/BaiduBankCardService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/easy/ocr/core/supplier/baidu/idcard/service/BaiduIdCardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easy/ocr/core/supplier/baidu/idcard/service/BaiduIdCardService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/easy/ocr/core/supplier/qq/QQClientUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easy/ocr/core/supplier/qq/QQClientUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/easy/ocr/core/supplier/qq/bank/service/QQBankCardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easy/ocr/core/supplier/qq/bank/service/QQBankCardService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/easy/ocr/core/supplier/qq/idcard/service/QQIdCardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easy/ocr/core/supplier/qq/idcard/service/QQIdCardService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/spring.factories" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/spring.factories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easy/ocr/core/core/service/BankCardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easy/ocr/core/core/service/BankCardService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easy/ocr/core/core/service/IdCardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easy/ocr/core/core/service/IdCardService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,9 +29,14 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="D:/soft/apache-maven-3.6.3" />
-        <option name="userSettingsFile" value="D:\soft\apache-maven-3.6.3\conf\settings.xml" />
+        <option name="mavenHome" value="E:/soft/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="E:\soft\apache-maven-3.6.1\conf\settings.xml" />
       </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="1.8" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="MavenRunner">
@@ -47,6 +44,7 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectId" id="1nogwVeI3C4o1hItjqJ6QvniOvN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -54,10 +52,10 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
@@ -113,6 +111,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
