@@ -31,7 +31,6 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="$PROJECT_DIR$/../../../soft/apache-maven-3.6.1" />
         <option name="userSettingsFile" value="E:\soft\apache-maven-3.6.1\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>

@@ -35,3 +35,5 @@ target
 c:/logs/
 logs
 .idea/*
+/.idea/
+/target/
