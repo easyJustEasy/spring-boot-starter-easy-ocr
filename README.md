@@ -45,7 +45,7 @@
       * @return */ 
   
       BankCard showBankNo(File img)
-   ## BankCard
+#####   BankCard
            //银行卡号
             private String cardNo;
             //卡类型
@@ -74,7 +74,7 @@
     * @param img 
     * @return */
     IdCard showBack(File img);
-   # IdCard
+##### IdCard
             //姓名
             private String name;
             //性别
@@ -91,11 +91,13 @@
 ### 提示：web中使用
 
 
-    @Autowired private EasyOcrUtil easyOcrUtil;
-    @RequestMapping(value = "/uploadIdCard")
+     @Autowired private EasyOcrUtil easyOcrUtil;
+
+     @RequestMapping(value = "/uploadIdCard")
      @ResponseBody
      public ExecResult uploadIdCardFront(@RequestParam("file") MultipartFile file) {
      try {   
+            //将MultipartFile转为File
            File f = transferToFile(file);   
            if (f == null) {     
             return ExecResult.fail("文件不能为空"); 
@@ -117,4 +119,20 @@
          e.getMessage());        
          }
      }
+  
+    private File transferToFile(MultipartFile multipartFile) {
+        //选择用缓冲区来实现这个转换即使用java 创建的临时文件
+        //使用 MultipartFile.transferto()方法 。
+        File file = null;
+        try {   
+            String originalFilename = multipartFile.getOriginalFilename();
+            String[] filename = originalFilename.split(".");
+            file=File.createTempFile(filename[0], filename[1]);
+            multipartFile.transferTo(file);
+            file.deleteOnExit();        
+        } catch (IOException e) {
+             e.printStackTrace();
+        }
+        return file;
+    }
 
