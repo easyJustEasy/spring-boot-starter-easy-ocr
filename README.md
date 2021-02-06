@@ -7,7 +7,7 @@
         <dependency>
            <groupId>com.easy.ocr</groupId>
             <artifactId>spring-boot-starter-easy-ocr</artifactId>
-            <version>1.0.0</version>
+            <version>1.0.1</version>
         </dependency>
 
 ## 2. 引入 repository
@@ -44,7 +44,18 @@
       * @param img 
       * @return */ 
   
-      BankCard showBankNo(File img);
+      BankCard showBankNo(File img)
+   ## BankCard
+           //银行卡号
+            private String cardNo;
+            //卡类型
+            private String cardType;
+            //卡名
+            private String cardName;
+            //银行
+            private String cardBank;
+            //有效期
+            private String cardValidDate;
 
 
 # 2.解析身份证前面
@@ -63,7 +74,19 @@
     * @param img 
     * @return */
     IdCard showBack(File img);
-
+   # IdCard
+            //姓名
+            private String name;
+            //性别
+            private String sex;
+            //民族
+            private String nation;
+            //出生日期
+            private String birth;
+            //地址
+            private String address;
+            //身份证号
+            private String cardNo;  
 
 ### 提示：web中使用
 
