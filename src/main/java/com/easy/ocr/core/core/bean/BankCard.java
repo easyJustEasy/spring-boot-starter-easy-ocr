@@ -1,10 +1,15 @@
 package com.easy.ocr.core.core.bean;
 
 public class BankCard {
+    //银行卡号
     private String cardNo;
+    //卡类型
     private String cardType;
+    //卡名
     private String cardName;
+    //银行
     private String cardBank;
+    //有效期
     private String cardValidDate;
     private String url;
 

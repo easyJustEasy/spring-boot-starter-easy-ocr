@@ -2,12 +2,19 @@ package com.easy.ocr.core.core.bean;
 
 
 public class IdCard {
+    //姓名
     private String name;
+    //性别
     private String sex;
+    //民族
     private String nation;
+    //出生日期
     private String birth;
+    //地址
     private String address;
+    //身份证号
     private String cardNo;
+    //链接
     private String url;
 
 

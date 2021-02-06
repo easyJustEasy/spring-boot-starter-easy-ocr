@@ -5,9 +5,16 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.easy.ocr</groupId>
     <artifactId>spring-boot-starter-easy-ocr</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <name>spring-boot-starter-easy-ocr</name>
     <description>this is an ocr project</description>
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub OWNER Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/zhuzhuppx/spring-boot-starter-easy-ocr</url>
+        </repository>
+    </distributionManagement>
     <properties>
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
