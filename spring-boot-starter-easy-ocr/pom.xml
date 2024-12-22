@@ -3,16 +3,19 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.easy.ocr</groupId>
-    <artifactId>spring-boot-starter-easy-ocr-parent</artifactId>
-    <version>2.0.0</version>
-    <packaging>pom</packaging>
-    <name>spring-boot-starter-easy-ocr</name>
-    <description>this is an ocr project</description>
-    <modules>
-        <module>spring-boot-starter-easy-ocr</module>
-        <module>example</module>
-    </modules>
+    <parent>
+        <groupId>com.easy.ocr</groupId>
+        <artifactId>spring-boot-starter-easy-ocr-parent</artifactId>
+        <version>2.0.0</version>
+    </parent>
+    <artifactId>spring-boot-starter-easy-ocr</artifactId>
+    <version>${parent.version}</version>
+    <properties>
+        <java.version>1.8</java.version>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
     <distributionManagement>
         <repository>
             <id>github</id>
@@ -20,10 +23,6 @@
             <url>https://maven.pkg.github.com/zhuzhuppx/spring-boot-starter-easy-ocr</url>
         </repository>
     </distributionManagement>
-    <properties>
-        <java.version>1.8</java.version>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -72,8 +71,36 @@
                 </exclusion>
             </exclusions>
         </dependency>
+        <!--  rapidocr这个必须要引入     -->
+        <!--  可前往maven中央仓库https://central.sonatype.com/artifact/io.github.mymonstercat/rapidocr/versions，查看版本      -->
+        <dependency>
+            <groupId>io.github.mymonstercat</groupId>
+            <artifactId>rapidocr</artifactId>
+            <version>0.0.7</version>
+            <exclusions>
+                <exclusion>
+                    <artifactId>slf4j-api</artifactId>
+                    <groupId>org.slf4j</groupId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <!--  一般只需要引入一个，CPU端建议使用onnx，移动端建议使用ncnn     -->
+        <!--  可前往maven中央仓库https://central.sonatype.com/artifact/io.github.mymonstercat/rapidocr-onnx-platform/versions，查看版本      -->
+        <dependency>
+            <groupId>io.github.mymonstercat</groupId>
+            <artifactId>rapidocr-onnx-platform</artifactId>
+            <version>0.0.7</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.github.mymonstercat</groupId>
+            <artifactId>rapidocr-ncnn-platform</artifactId>
+            <version>0.0.7</version>
+        </dependency>
     </dependencies>
     <build>
+        <finalName>spring-boot-starter-easy-ocr</finalName>
         <plugins>
             <!-- 指定jdk -->
             <plugin>
@@ -99,16 +126,4 @@
             </plugin>
         </plugins>
     </build>
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <!-- Import dependency management from Spring Boot -->
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-dependencies</artifactId>
-                <version>2.4.2</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
 </project>

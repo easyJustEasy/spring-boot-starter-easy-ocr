@@ -7,7 +7,7 @@ public class BaiduConfig {
     private String appId= "16782092";
     private String apiKey = "GuCsGkBxlgHEeup3hVDaL2fj";
     private String secretKey = "HhkNVBQD9iR6gtjnrSBsajpbVjjKW7Q3";
-
+    private boolean open=false;
     public String getAppId() {
         return appId;
     }
@@ -30,5 +30,13 @@ public class BaiduConfig {
 
     public void setSecretKey(String secretKey) {
         this.secretKey = secretKey;
+    }
+
+    public boolean isOpen() {
+        return open;
+    }
+
+    public void setOpen(boolean open) {
+        this.open = open;
     }
 }

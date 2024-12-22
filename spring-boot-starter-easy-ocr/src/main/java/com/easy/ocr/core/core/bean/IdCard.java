@@ -16,7 +16,16 @@ public class IdCard {
     private String cardNo;
     //链接
     private String url;
+    //身份证有效期
+    private String validDate;
 
+    public String getValidDate() {
+        return validDate;
+    }
+
+    public void setValidDate(String validDate) {
+        this.validDate = validDate;
+    }
 
     public String getName() {
         return name;
@@ -75,6 +84,7 @@ public class IdCard {
                 ", birth='" + birth + '\'' +
                 ", address='" + address + '\'' +
                 ", cardNo='" + cardNo + '\'' +
+                ", validDate='" + validDate + '\'' +
                 '}';
     }
 
