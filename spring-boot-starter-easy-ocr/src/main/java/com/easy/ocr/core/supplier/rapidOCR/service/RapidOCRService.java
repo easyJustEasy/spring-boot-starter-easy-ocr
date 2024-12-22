@@ -103,10 +103,16 @@ public class RapidOCRService implements BankCardService, IdCardService {
         }
         input = input.replaceAll("\\s+", "");
         input = input.replaceAll("[\\r\\n]+", " ");
+        int idNoIndex = input.indexOf("公民身份号码");
+        int idNoLength = 6;
+        if(idNoIndex<0){
+            idNoIndex = input.indexOf("公民身份证号码");
+            idNoLength = 7;
+        }
         IdCard person = new IdCard();
         person.setName(input.substring(input.indexOf("姓名") + 2, input.indexOf("性别")));
-        person.setCardNo(input.substring(input.indexOf("公民身份号码") + 6));
-        person.setAddress(input.substring(input.indexOf("住址") + 2, input.indexOf("公民身份号码")));
+        person.setCardNo(input.substring(idNoIndex+idNoLength));
+        person.setAddress(input.substring(input.indexOf("住址") + 2, idNoIndex));
         person.setBirth(input.substring(input.indexOf("出生") + 2, input.indexOf("住址")));
         person.setSex(input.substring(input.indexOf("性别") + 2, input.indexOf("民族")));
         person.setNation(input.substring(input.indexOf("民族") + 2, input.indexOf("出生")));
