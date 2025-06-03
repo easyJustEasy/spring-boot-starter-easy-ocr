@@ -4,9 +4,9 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 
 @ConfigurationProperties(prefix = "spring.easy.ocr.baidu")
 public class BaiduConfig {
-    private String appId= "16782092";
-    private String apiKey = "GuCsGkBxlgHEeup3hVDaL2fj";
-    private String secretKey = "HhkNVBQD9iR6gtjnrSBsajpbVjjKW7Q3";
+    private String appId;
+    private String apiKey ;
+    private String secretKey;
     private boolean open=false;
     public String getAppId() {
         return appId;
