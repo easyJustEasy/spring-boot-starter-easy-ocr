@@ -8,7 +8,7 @@
         <dependency>
            <groupId>com.easy.ocr</groupId>
             <artifactId>spring-boot-starter-easy-ocr</artifactId>
-            <version>1.0.1</version>
+             <version>2.0.0</version>
         </dependency>
 
 ## 2. 引入 repository
