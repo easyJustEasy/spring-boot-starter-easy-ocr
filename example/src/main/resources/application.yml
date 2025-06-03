@@ -1,6 +1,10 @@
 server:
-  port: 8081
+  port: 9999
 spring:
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 100MB
   easy:
     ocr:
       # 百度云配置 去百度云申请自己的账户获取app-id和api-key和secret-key
