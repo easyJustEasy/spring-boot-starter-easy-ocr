@@ -36,15 +36,15 @@ spring:
     ocr:
       # 百度云配置 去百度云申请自己的账户获取app-id和api-key和secret-key
       baidu:
-        app-id: 16782092
-        api-key: GuCsGkBxlgHEeup3hVDaL2fj"
-        secret-key: HhkNVBQD9iR6gtjnrSBsajpbVjjKW7Q3
+        app-id: 
+        api-key: 
+        secret-key: 
         open: false
       # 腾讯云配置 去百度云申请自己的账户获取app-id和api-key和secret-key
       qq:
-         app-id: 1259630960
-         secret-key: AKIDqVv5z5kixxHpQofwd4GDzZviRu8AnXrv
-         secret-id: 5vVptiKjszsVzKVK1ZtukLrBF8mCQO6f
+         app-id: 
+         secret-key: 
+         secret-id: 
          bucket-name:
          open: false
 ```
