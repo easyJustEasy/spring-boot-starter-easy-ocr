@@ -24,16 +24,37 @@
                </snapshots>
             </repository>
        </repositories>
-    
+### 2. 在你的项目中做简单配置 application.yml
+```
 
-## 2.引入EasyOcrUtil
+server:
+  port: 8081
+spring:
+  easy:
+    ocr:
+      # 百度云配置 去百度云申请自己的账户获取app-id和api-key和secret-key
+      baidu:
+        app-id: 16782092
+        api-key: GuCsGkBxlgHEeup3hVDaL2fj"
+        secret-key: HhkNVBQD9iR6gtjnrSBsajpbVjjKW7Q3
+        open: false
+      # 腾讯云配置 去百度云申请自己的账户获取app-id和api-key和secret-key
+      qq:
+         app-id: 1259630960
+         secret-key: AKIDqVv5z5kixxHpQofwd4GDzZviRu8AnXrv
+         secret-id: 5vVptiKjszsVzKVK1ZtukLrBF8mCQO6f
+         bucket-name:
+         open: false
+```
+
+## 3.引入EasyOcrUtil
      @Autowired private EasyOcrUtil easyOcrUtil; 
 
-## 3.调用api即可
+## 4.调用api即可
        IdCard idCard = easyOcrUtil.showBack(new File("E:\\ocr\\ids\\timg.jpg"));
        System.out.println(idCard);
 
-
+## 5.说明： 程序默认开启的是大模型识别，所有百度和qq的配置可以都是open=false
 
 ### API
 
