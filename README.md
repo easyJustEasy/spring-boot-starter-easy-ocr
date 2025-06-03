@@ -160,3 +160,8 @@ spring:
         return file;
     }
 
+
+### 示例说明
+启动example项目com.easy.ocr.App
+访问： http://localhost:9999/
+
