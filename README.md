@@ -56,7 +56,7 @@ spring:
        IdCard idCard = easyOcrUtil.showBack(new File("E:\\ocr\\ids\\timg.jpg"));
        System.out.println(idCard);
 
-## 5.说明： 程序默认开启的是大模型识别，所有百度和qq的配置可以都是open=false
+## 5.说明： 程序默认开启的是大模型识别，所以百度和qq的配置可以都是open=false
 
 ### API
 
